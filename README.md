@@ -19,7 +19,7 @@ Download the zip file and extract it to your local machine. Open the index.html 
 
 👤 Ayush Jha
 
-- GitHub: [@githubhandle](https://github.com/jhaman1895)
+- GitHub: [@Jhaman1895](https://github.com/jhaman1895)
 
 ## Show your support
 
