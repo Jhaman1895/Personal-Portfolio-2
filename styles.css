@@ -264,3 +264,69 @@ p {
   line-height: 24px;
 }
 
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 1901px;
+  left: 0px;
+  top: 4137px;
+  background: #1C1A19;
+  width: 100%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 24px;
+  width:100%;
+  height: 563px;
+  background-image: url(./images/Group.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.about h6 {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #FF6B00;
+}
+
+.about-content {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4F5F7;
+}
+
+.about button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  gap: 10px;
+  width: 161px;
+  height: 48px;
+  background: #FF6B00;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.about-divider {
+  width:100%;
+  top: calc(50% - 0px/2 + 0.5px);
+  border: 1px solid #FFFFFF;
+}
