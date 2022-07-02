@@ -99,7 +99,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 120px 0px;
+  padding: 120px 0;
   gap: 80px;
   width: 100%;
   height: 3455px;
@@ -108,7 +108,7 @@ p {
 }
 
 .works-title h2 {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -118,7 +118,7 @@ p {
 
 .works-title hr {
   border: 1px solid #212121;
-  margin-top: 30px
+  margin-top: 30px;
 }
 
 .works-cards {
@@ -135,12 +135,12 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px 24px;
+  padding: 0 24px;
   gap: 24px;
 }
 
 .works-card-1 h4 {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -149,7 +149,7 @@ p {
 }
 
 .card-content-1 {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -161,15 +161,15 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   list-style-type: none;
 }
 
 .tech-stack li {
   padding: 10px 12px;
-  border: 1px solid #8993A4;
-  font-family: 'Inter';
+  border: 1px solid #8993a4;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -181,8 +181,8 @@ p {
   gap: 10px;
   width: 124px;
   height: 48px;
-  background: #FF6B00;
-  font-family: 'Inter';
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -205,17 +205,17 @@ p {
 }
 
 .works-card-2 h5 {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  margin-top: 50px
+  margin-top: 50px;
 }
 
 .card-content-2 {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -235,7 +235,7 @@ p {
   padding: 10px 12px;
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -252,12 +252,12 @@ p {
   gap: 10px;
   width: 100%;
   height: 48px;
-  left: calc(50% - 124px/2);
-  top: calc(50% - 48px/2);
-  background: #FF6B00;
+  left: calc(50% - 124px / 2);
+  top: calc(50% - 48px / 2);
+  background: #ff6b00;
   margin-top: -33px;
   color: #fff;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -269,9 +269,9 @@ p {
   flex-direction: column;
   align-items: flex-start;
   height: 1901px;
-  left: 0px;
+  left: 0;
   top: 4137px;
-  background: #1C1A19;
+  background: #1c1a19;
   width: 100%;
 }
 
@@ -281,7 +281,7 @@ p {
   align-items: flex-start;
   padding: 120px 24px;
   gap: 24px;
-  width:100%;
+  width: 100%;
   height: 563px;
   background-image: url(./images/Group.png);
   background-repeat: no-repeat;
@@ -289,22 +289,22 @@ p {
 }
 
 .about h6 {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
 }
 
 .about-content {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
 }
 
 .about button {
@@ -316,8 +316,8 @@ p {
   gap: 10px;
   width: 161px;
   height: 48px;
-  background: #FF6B00;
-  font-family: 'Inter';
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -326,9 +326,9 @@ p {
 }
 
 .about-divider {
-  width:100%;
-  top: calc(50% - 0px/2 + 0.5px);
-  border: 1px solid #FFFFFF;
+  width: 100%;
+  top: calc(50% - 0px / 2 + 0.5px);
+  border: 1px solid #fff;
 }
 
 .languages {
@@ -350,7 +350,7 @@ p {
 }
 
 .list-title h6 {
-  font-family: 'InaiMathi';
+  font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -368,12 +368,12 @@ p {
 }
 
 .list-container li {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  color:white;
+  color: white;
   text-align: center;
 }
 
@@ -381,6 +381,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
 }
