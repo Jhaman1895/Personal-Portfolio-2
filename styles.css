@@ -481,3 +481,36 @@ footer ul {
   list-style: none;
   margin-top: 15px;
 }
+
+button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+button:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+.disabled {
+  background: f4f1f0;
+  color: #5b5957;
+}
+
+.button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.button:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+.button .disabled {
+  background: f4f1f0;
+  color: #5b5957;
+}
+
