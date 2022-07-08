@@ -96,6 +96,10 @@ header {
   color: #fff;
 }
 
+.desktop-image {
+  display: none;
+}
+
 .social-media {
   display: flex;
   justify-content: space-evenly;
@@ -345,7 +349,6 @@ header {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 281.46px;
 }
 
 .list-title {
@@ -387,6 +390,14 @@ header {
 }
 
 .frameworks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+}
+
+.skills-list {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -532,6 +543,18 @@ button:active {
   display: none;
 }
 
+.first-name {
+  display: none;
+}
+
+.last-name {
+  display: none;
+}
+
+.first-and-last {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .desktop-menu {
     display: flex;
@@ -540,7 +563,7 @@ button:active {
     gap: 1em;
     color: white;
     width: 100%;
-    margin-right: 2rem;
+    margin-right: 3rem;
 }
 
   
@@ -569,7 +592,7 @@ button:active {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-left: 2rem;
+    margin-left: 3rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -583,9 +606,142 @@ button:active {
     justify-content: space-between;
     align-items: center;
     background-image: none;
+    height: 900px;
+  }
+
+  .desktop-image {
+    display: block;
+  }
+
+  .headline-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 75px;
+  }
+
+  .headline-content-text {
+    margin-top: -250px;
+  }
+
+  .headline-welcome {
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+  }
+
+  .headline-intro {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .headline-paragraph {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    margin-top: -200px;
+  }
+
+  .about-me-container {
+    height: 1195px;
+    left: 0px;
+    top: 2680px;
+    width: 100%;
+  }
+
+  .about {
+    width: 100%;
+    background-image: url(./images/Group_desktop.png);
+    background-position: 100%;
+    margin-left: 3.5rem;
+  }
+
+  .skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 60%;
+  }
+
+  .skills-list {
+    margin-right: -150px;
+  }
+
+  .languages {
+    margin-left: 70px;
+  }
+
+  .about-content {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .about-divider {
+    width: 85%;
+    margin-left: 100px;
+  }
+  
+  .form-section {
     
   }
 
-  
+  .form-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+  }
 
+  .form-content-paragraph p {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+  }
+
+  form {
+    margin-top: 60px;
+  }
+
+  .full-name {
+    display: none;
+  }
+
+  .first-and-last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+
+  }
+  .first-name {
+    display: block;
+    width: 100%;
+    height: 18px;
+    max-width: 298px;
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  .last-name {
+    display: inline-block;
+    width: 100%;
+    max-width: 298px;
+    height: 18px;
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  footer ul {
+    gap: 20px;
+  }
 }
