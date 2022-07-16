@@ -14,12 +14,14 @@
 
 html {
   box-sizing: border-box;
+  min-width: 375px;
+  width: 100%;
 }
 
 header {
   display: flex;
   width: 100%;
-  height: 5vh;
+  height: 10vh;
   background: #3c3a39;
   justify-content: space-between;
   align-items: center;
@@ -57,7 +59,15 @@ header {
   margin-bottom: 20px;
 }
 
-h1 {
+.headline-content-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  box-sizing: border-box;
+}
+
+.headline-welcome {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -68,7 +78,7 @@ h1 {
   margin-top: 100px;
 }
 
-h3 {
+.headline-intro {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -86,6 +96,10 @@ h3 {
   color: #fff;
 }
 
+.desktop-image {
+  display: none;
+}
+
 .social-media {
   display: flex;
   justify-content: space-evenly;
@@ -101,7 +115,7 @@ h3 {
   padding: 120px 0;
   gap: 80px;
   width: 100%;
-  height: 3455px;
+  height: auto;
   top: 682px;
   background: #fff;
 }
@@ -133,7 +147,7 @@ h3 {
   height: 568px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 0 24px;
   gap: 24px;
 }
@@ -335,7 +349,6 @@ h3 {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 281.46px;
 }
 
 .list-title {
@@ -377,6 +390,14 @@ h3 {
 }
 
 .frameworks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+}
+
+.skills-list {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -512,4 +533,324 @@ button:active {
 .button .disabled {
   background: f4f1f0;
   color: #5b5957;
+}
+
+.desktop-menu {
+  display: none;
+}
+
+.desktop-menu-item {
+  display: none;
+}
+
+.first-name {
+  display: none;
+}
+
+.last-name {
+  display: none;
+}
+
+.first-and-last {
+  display: none;
+}
+
+.works-card-1-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop-menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 1em;
+    color: white;
+    width: 100%;
+    margin-right: 3rem;
+  }
+
+  .desktop-menu-item {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .desktop-menu-item-link {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 3rem;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .headline-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: none;
+    height: 900px;
+  }
+
+  .desktop-image {
+    display: block;
+  }
+
+  .headline-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 75px;
+  }
+
+  .headline-content-text {
+    margin-top: -250px;
+  }
+
+  .headline-welcome {
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+  }
+
+  .headline-intro {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .headline-paragraph {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    margin-top: -200px;
+  }
+
+  .about-me-container {
+    height: 1195px;
+    left: 0;
+    top: 2680px;
+    width: 100%;
+  }
+
+  .about {
+    width: 100%;
+    background-image: url(./images/Group_desktop.png);
+    background-position: 100%;
+    margin-left: 3.5rem;
+  }
+
+  .skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 60%;
+  }
+
+  .skills-list {
+    margin-right: -150px;
+  }
+
+  .languages {
+    margin-left: 70px;
+  }
+
+  .about-content {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .about-divider {
+    width: 85%;
+    margin-left: 100px;
+  }
+
+  .form-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+  }
+
+  .form-content-paragraph p {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+  }
+
+  form {
+    margin-top: 60px;
+  }
+
+  .full-name {
+    display: none;
+  }
+
+  .first-and-last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+
+  .first-name {
+    display: block;
+    width: 100%;
+    height: 18px;
+    max-width: 298px;
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  .last-name {
+    display: inline-block;
+    width: 100%;
+    max-width: 298px;
+    height: 18px;
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  footer ul {
+    gap: 20px;
+  }
+
+  .works-container {
+    height: auto;
+    gap: 0;
+  }
+
+  .works-cards {
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .works-title hr {
+    display: none;
+  }
+
+  .works-card-1 {
+    display: none;
+  }
+
+  .works-card-1-desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 24px;
+    gap: 24px;
+    grid-column: 1 / 4;
+    width: 100%;
+    height: 568px;
+  }
+
+  .works-card-1-image {
+    margin-left: 500px;
+  }
+
+  .works-card-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    gap: 5px;
+    height: 400px;
+  }
+
+  .works-card-1-text h4 {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    margin-top: -10px;
+  }
+
+  .works-card-1-desktop p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -450px;
+  }
+
+  .works-card-1-desktop button {
+    padding: 12px;
+    gap: 10px;
+    width: 124px;
+    height: 48px;
+    background: #ff6b00;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    letter-spacing: 0.01em;
+  }
+
+  .works-card-1-desktop h4 {
+    height: 500px;
+  }
+
+  .card-2-button {
+    display: none;
+  }
+
+  .works-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+  }
+
+  .works-title h2 {
+    width: 315px;
+    height: 52px;
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+  }
+
+  .works-card-1-desktop span {
+    display: flex;
+    align-items: center;
+  }
 }
