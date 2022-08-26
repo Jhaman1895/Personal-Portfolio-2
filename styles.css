@@ -749,7 +749,7 @@ button:active {
   }
 
   .form-content-paragraph {
-    min-width: 455px;
+    width: 455px;
     height: 256px;
   }
 
@@ -918,5 +918,15 @@ button:active {
   .works-card-1-desktop span {
     display: flex;
     align-items: center;
+  }
+  
+  .email {
+    min-width: 684px;
+    height: 48px;
+  }
+
+  .form-textarea {
+    min-width: 684px;
+    height: 114px;
   }
 }
