@@ -919,7 +919,7 @@ button:active {
     display: flex;
     align-items: center;
   }
-  
+
   .email {
     min-width: 684px;
     height: 48px;
