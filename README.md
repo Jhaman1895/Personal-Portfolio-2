@@ -2,18 +2,21 @@
 
 # Project Name
 
-> Personal Portfolio
+> Personal Portfolio project which will be used to showcase the projects we build throughout the Microverse curriculum.
 
 
 ## Built With
 
-- HTML/CSS
+- HTML
+- CSS (Flexbox & Grid) 
+- git/GitHub
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps:
 
-Download the zip file and extract it to your local machine. Open the index.html file in any modern browser.
+1.Download the zip file and extract it to your local machine. 
+2. Open the index.html file in any modern browser. 
 
 ## Authors
 
@@ -21,15 +24,24 @@ Download the zip file and extract it to your local machine. Open the index.html 
 
 - GitHub: [@Jhaman1895](https://github.com/jhaman1895)
 
-👤
+👤 Dickson Amankwah
 
 - GitHub: [@spydaspider](https://github.com/spydaspider)
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Jhaman1895/Personal-Portfolio-2/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
+
+- Microverse
+
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
