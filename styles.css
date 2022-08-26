@@ -598,7 +598,7 @@ button:active {
 
 .form-textarea {
   min-width: 327px;
-  height: 90px
+  height: 90px;
 }
 
 @media only screen and (min-width: 768px) {
