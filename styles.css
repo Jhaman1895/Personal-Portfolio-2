@@ -454,10 +454,11 @@ form {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
+  min-width: 327px;
 }
 
 form input {
-  width: 100%;
+  min-width: 327px;
   height: 48px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -474,7 +475,7 @@ form input {
 }
 
 form textarea {
-  width: 100%;
+  min-width: 327px;
   height: 114px;
   left: 12px;
   right: 12px;
@@ -582,6 +583,22 @@ button:active {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
+  min-width: 327px;
+}
+
+.full-name {
+  min-width: 327px;
+  height: 48px;
+}
+
+.email {
+  min-width: 327px;
+  height: 48px;
+}
+
+.form-textarea {
+  min-width: 327px;
+  height: 90px
 }
 
 @media only screen and (min-width: 768px) {
