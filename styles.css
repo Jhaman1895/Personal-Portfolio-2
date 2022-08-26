@@ -32,6 +32,15 @@ header {
   padding: 10px;
 }
 
+button {
+  transition: 0.5s;
+}
+
+.button {
+  transition: 0.5s;
+}
+
+
 .logo {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
