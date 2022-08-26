@@ -387,6 +387,7 @@ header {
   margin-left: 40px;
   align-self: center;
 }
+
 .list-container {
   list-style-type: none;
   display: flex;
@@ -581,7 +582,6 @@ button:active {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-
 }
 
 @media only screen and (min-width: 768px) {
