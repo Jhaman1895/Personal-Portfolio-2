@@ -18,6 +18,10 @@ html {
   width: 100%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 header {
   display: flex;
   width: 100%;
@@ -40,6 +44,9 @@ header {
   text-decoration: none;
 }
 
+.menu-icon {
+  padding-right: 12px;
+}
 .headline-container {
   width: 100%;
   background: #1c1a19;
@@ -171,6 +178,7 @@ header {
 }
 
 .tech-stack {
+  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0;
@@ -186,7 +194,6 @@ header {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  float: left;
 }
 
 .works-card-1 button {
@@ -633,20 +640,23 @@ button:active {
     font-weight: 400;
     font-size: 72px;
     line-height: 82px;
+    min-width: 566px;
   }
 
   .headline-intro {
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
+    min-width: 566px;
   }
 
   .headline-paragraph {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 200;
+    font-size: 30px;
     line-height: 32px;
+    min-width: 700px;
   }
 
   .social-media {
@@ -780,9 +790,8 @@ button:active {
   .works-card-1-desktop {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    padding: 0 24px;
     gap: 24px;
     grid-column: 1 / 4;
     min-width: 1168px;
@@ -795,7 +804,7 @@ button:active {
     align-items: flex-start;
     justify-content: space-evenly;
     min-width: 450px;
-    gap: 5px;
+    gap: 18px;
     min-height: 348px;
   }
 
@@ -807,8 +816,8 @@ button:active {
   .works-card-1-text h4 {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
+    font-weight: 500;
+    font-size: 46px;
     line-height: 44px;
   }
 
@@ -820,9 +829,9 @@ button:active {
   .works-card-1-desktop p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 30px;
   }
 
   .works-card-1-desktop button {
@@ -851,7 +860,7 @@ button:active {
   .works-title {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 30px;
     width: 100%;
