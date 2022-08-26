@@ -21,7 +21,7 @@ Download the zip file and extract it to your local machine. Open the index.html 
 
 - GitHub: [@Jhaman1895](https://github.com/jhaman1895)
 
-👤
+👤 Dickson Amankwah
 
 - GitHub: [@spydaspider](https://github.com/spydaspider)
 
@@ -32,4 +32,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
