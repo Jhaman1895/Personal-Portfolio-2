@@ -694,6 +694,7 @@ button:active {
   .form-content {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     margin-top: 80px;
     padding: 130px;
