@@ -364,6 +364,7 @@ header {
 .list-title {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-left: 75px;
   padding: 8px 12px;
   gap: 25px;
@@ -378,8 +379,14 @@ header {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
+  align-self: center;
+  text-align: center;
 }
 
+.list-title-skills {
+  margin-left: 40px;
+  align-self: center;
+}
 .list-container {
   list-style-type: none;
   display: flex;
@@ -574,6 +581,7 @@ button:active {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -650,7 +658,7 @@ button:active {
     font-weight: 400;
     font-size: 72px;
     line-height: 82px;
-    min-width: 566px;
+    width: 473px;
   }
 
   .headline-intro {
@@ -666,7 +674,7 @@ button:active {
     font-weight: 200;
     font-size: 20px;
     line-height: 32px;
-    min-width: 700px;
+    width: 566px;
   }
 
   .social-media {
@@ -702,7 +710,7 @@ button:active {
   }
 
   .about-content {
-    width: 50%;
+    width: 566px;
     height: 148px;
     font-size: 20px;
     line-height: 32px;
