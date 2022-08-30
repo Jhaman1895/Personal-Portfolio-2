@@ -11,6 +11,10 @@
 - CSS (Flexbox & Grid) 
 - git/GitHub
 
+## Live Demo
+
+[Jha's Porfolio Demo](https://jhaman1895.github.io/Personal-Portfolio-2/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps:
