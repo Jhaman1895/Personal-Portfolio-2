@@ -14,12 +14,18 @@
 
 html {
   box-sizing: border-box;
+  min-width: 375px;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 header {
   display: flex;
   width: 100%;
-  height: 5vh;
+  height: 10vh;
   background: #3c3a39;
   justify-content: space-between;
   align-items: center;
@@ -36,6 +42,10 @@ header {
   height: 24px;
   color: #fff;
   text-decoration: none;
+}
+
+.menu-icon {
+  padding-right: 12px;
 }
 
 .headline-container {
@@ -57,7 +67,15 @@ header {
   margin-bottom: 20px;
 }
 
-h1 {
+.headline-content-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  box-sizing: border-box;
+}
+
+.headline-welcome {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -68,7 +86,7 @@ h1 {
   margin-top: 100px;
 }
 
-h3 {
+.headline-intro {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -86,6 +104,10 @@ h3 {
   color: #fff;
 }
 
+.desktop-image {
+  display: none;
+}
+
 .social-media {
   display: flex;
   justify-content: space-evenly;
@@ -101,7 +123,7 @@ h3 {
   padding: 120px 0;
   gap: 80px;
   width: 100%;
-  height: 3455px;
+  height: auto;
   top: 682px;
   background: #fff;
 }
@@ -157,7 +179,9 @@ h3 {
 }
 
 .tech-stack {
+  display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
   padding: 0;
   gap: 12px;
@@ -172,7 +196,6 @@ h3 {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  float: left;
 }
 
 .works-card-1 button {
@@ -188,6 +211,7 @@ h3 {
   line-height: 24px;
   color: #fff;
   letter-spacing: 0.01em;
+  align-self: flex-start;
 }
 
 .works-card-2 {
@@ -335,12 +359,12 @@ h3 {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 281.46px;
 }
 
 .list-title {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-left: 75px;
   padding: 8px 12px;
   gap: 25px;
@@ -355,6 +379,13 @@ h3 {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
+  align-self: center;
+  text-align: center;
+}
+
+.list-title-skills {
+  margin-left: 40px;
+  align-self: center;
 }
 
 .list-container {
@@ -377,6 +408,14 @@ h3 {
 }
 
 .frameworks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+}
+
+.skills-list {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -411,14 +450,15 @@ form {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 16px;
   line-height: 44px;
   text-align: center;
   color: #172b4d;
+  min-width: 327px;
 }
 
 form input {
-  width: 100%;
+  min-width: 327px;
   height: 48px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -435,7 +475,7 @@ form input {
 }
 
 form textarea {
-  width: 100%;
+  min-width: 327px;
   height: 114px;
   left: 12px;
   right: 12px;
@@ -512,4 +552,381 @@ button:active {
 .button .disabled {
   background: f4f1f0;
   color: #5b5957;
+}
+
+.desktop-menu {
+  display: none;
+}
+
+.desktop-menu-item {
+  display: none;
+}
+
+.first-name {
+  display: none;
+}
+
+.last-name {
+  display: none;
+}
+
+.first-and-last {
+  display: none;
+}
+
+.works-card-1-desktop {
+  display: none;
+}
+
+.form-content-paragraph p {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  min-width: 327px;
+}
+
+.full-name {
+  min-width: 327px;
+  height: 48px;
+}
+
+.email {
+  min-width: 327px;
+  height: 48px;
+}
+
+.form-textarea {
+  min-width: 327px;
+  height: 90px;
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop-menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 1em;
+    color: white;
+    width: 100%;
+    margin-right: 3rem;
+  }
+
+  .desktop-menu-item {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .desktop-menu-item-link {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 3rem;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .headline-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: none;
+    height: 900px;
+  }
+
+  .desktop-image {
+    display: block;
+  }
+
+  .headline-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 75px;
+  }
+
+  .headline-content-text {
+    margin-top: -250px;
+  }
+
+  .headline-welcome {
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    width: 473px;
+  }
+
+  .headline-intro {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    min-width: 566px;
+  }
+
+  .headline-paragraph {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 32px;
+    width: 566px;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    margin-top: -200px;
+  }
+
+  .about-me-container {
+    height: 1195px;
+    left: 0;
+    top: 2680px;
+    width: 100%;
+  }
+
+  .about {
+    width: 100%;
+    background-image: url(./images/Group_desktop.png);
+    background-position: 100%;
+    margin-left: 3.5rem;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 130px;
+    min-width: 768px;
+    height: 596px;
+    margin-left: -60px;
+    gap: 150px;
+    margin-top: -75px;
+  }
+
+  .about-content {
+    width: 566px;
+    height: 148px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .about-divider {
+    width: 85%;
+    margin-left: 100px;
+  }
+
+  .form-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 130px;
+    gap: 24px;
+  }
+
+  .form-content-paragraph {
+    width: 455px;
+    height: 256px;
+  }
+
+  .form-content-paragraph p {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+    text-align: left;
+  }
+
+  form {
+    margin-top: 60px;
+  }
+
+  .full-name {
+    display: none;
+  }
+
+  .first-and-last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    min-width: 330px;
+    height: 48px;
+  }
+
+  .first-name {
+    display: block;
+    width: 100%;
+    min-width: 330px;
+    height: 48px;
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  .last-name {
+    display: inline-block;
+    width: 100%;
+    min-width: 330px;
+    height: 48px;
+    border-bottom: 1px solid #dbd8d7;
+  }
+
+  .form-content .button {
+    align-self: flex-start;
+  }
+
+  footer ul {
+    gap: 20px;
+  }
+
+  .works-container {
+    height: auto;
+    gap: 0;
+    padding: 100px;
+  }
+
+  .works-cards {
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .works-title hr {
+    display: none;
+  }
+
+  .works-card-1 {
+    display: none;
+  }
+
+  .works-card-1-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    grid-column: 1 / 4;
+    min-width: 1168px;
+    min-height: 568px;
+  }
+
+  .works-card-1-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-width: 450px;
+    gap: 18px;
+    min-height: 348px;
+  }
+
+  .works-card-1-header-container {
+    min-width: 448px;
+    height: 48px;
+  }
+
+  .works-card-1-text h4 {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 44px;
+  }
+
+  .works-card-1-content-conainter {
+    min-width: 448px;
+    height: 140px;
+  }
+
+  .works-card-1-desktop p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .works-card-1-desktop button {
+    padding: 12px;
+    gap: 10px;
+    width: 124px;
+    height: 48px;
+    background: #ff6b00;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    letter-spacing: 0.01em;
+  }
+
+  .works-card-1-desktop h4 {
+    min-height: 500px;
+  }
+
+  .card-2-button {
+    display: none;
+  }
+
+  .works-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .works-title h2 {
+    width: 315px;
+    height: 52px;
+    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+  }
+
+  .works-card-1-desktop span {
+    display: flex;
+    align-items: center;
+  }
+
+  .email {
+    min-width: 684px;
+    height: 48px;
+  }
+
+  .form-textarea {
+    min-width: 684px;
+    height: 114px;
+  }
 }
