@@ -160,7 +160,7 @@ header {
   gap: 24px;
 }
 
-.works-card-1 h4 {
+.works-card-1 h3 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -227,7 +227,7 @@ header {
   background-size: cover;
 }
 
-.works-card-2 h5 {
+.works-card-2 h4 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -311,7 +311,7 @@ header {
   background-position: 100% 100%;
 }
 
-.about h6 {
+.about h2 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -372,7 +372,7 @@ header {
   margin-top: 100px;
 }
 
-.list-title h6 {
+.list-title h3 {
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -850,7 +850,7 @@ button:active {
     height: 48px;
   }
 
-  .works-card-1-text h4 {
+  .works-card-1-text h3 {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -886,7 +886,7 @@ button:active {
     letter-spacing: 0.01em;
   }
 
-  .works-card-1-desktop h4 {
+  .works-card-1-desktop h3 {
     min-height: 500px;
   }
 
