@@ -32,6 +32,11 @@ To get a local copy up and running follow these simple example steps:
 
 - GitHub: [@spydaspider](https://github.com/spydaspider)
 
+👤 Olivier Kango
+
+- Github: [@Olivier-Kango](https://github.com/Olivier-Kango)
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
