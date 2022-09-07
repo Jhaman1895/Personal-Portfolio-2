@@ -76,7 +76,7 @@ nav {
     position: fixed;
     background-color: #3c3a39;
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 90vh;
     z-index: 1000;
   }
 
@@ -90,20 +90,23 @@ nav {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 25px;
+    min-width: 375px;
   }
-
+  .mobile-menu-links-items-container {
+    width: 325px;
+    border-bottom: 1px solid #fff5e1;
+    margin-left: 24px;
+  }
   .mobile-menu-links-items {
     text-decoration: none;
     font-family: Inter Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     text-align: left;
     color: #fff5e1;
-    margin-left: 50px;
-    border-bottom: 1px solid #fff5e1;
     cursor: pointer;
   }
 
