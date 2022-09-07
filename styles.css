@@ -93,11 +93,13 @@ nav {
     gap: 25px;
     min-width: 375px;
   }
+
   .mobile-menu-links-items-container {
     width: 325px;
     border-bottom: 1px solid #fff5e1;
     margin-left: 24px;
   }
+
   .mobile-menu-links-items {
     text-decoration: none;
     font-family: Inter Arial, Helvetica, sans-serif;
