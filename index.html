@@ -11,9 +11,27 @@
 <body>
   <div class="container">
     <!--Toolbar Begins-->
+    <div class="mobile-menu">
+      <div class="mobile-menu-close-toggle-container">
+        <a id="mobile-menu-close-toggle" onclick="toggleClasses()">
+          <img src="./images/icon_cancel.svg" alt="" class="mobile-menu-close-toggle-image">
+        </a>
+      </div>
+      <div class="mobile-menu-links">
+        <div class="mobile-menu-links-items-container">
+          <a href="#works" class="mobile-menu-links-items" onclick="toggleClasses()">Portfolio</a>
+        </div>
+        <div class="mobile-menu-links-items-container">
+          <a href="#aboutMe" class="mobile-menu-links-items" onclick="toggleClasses()">About</a>
+        </div>
+        <div class="mobile-menu-links-items-container">
+          <a href="#contact" class="mobile-menu-links-items" onclick="toggleClasses()">Contact</a>
+        </div>
+      </div>
+    </div>
     <nav class="toolbar">
       <h1><a href="#" class="logo">Ayush</a></h1>
-      <a href="#" class="menu-icon"><img src="./images/hamburger_icon.svg" alt="navigation-icon"></a>
+      <a href="#" class="menu-icon" onclick="toggleClasses()"><img src="./images/hamburger_icon.svg" alt="navigation-icon"></a>
       <ul class="desktop-menu">
         <li class="desktop-menu-item"><a href="#" class="desktop-menu-item-link">Portfolio</a></li>
         <li class="desktop-menu-item"><a href="#" class="desktop-menu-item-link">About</a></li>
@@ -53,7 +71,7 @@
     </div>
     <!--Headline Ends-->
     <!--Recent Works Section Mobile Begins-->
-    <section class="works-container">
+    <section id="works" class="works-container">
       <div class="works-title">
         <h2>My Recent Works</h2><span class="desktop-image"><img class="desktop-image" src="./images/Vector-works.svg" alt=""></span>
         <hr>
@@ -205,7 +223,7 @@
     </section>
   <!--Recent Works Mobile Section Ends-->
   <!--About Me Section Begins-->
-    <section class="about-me-container">
+    <section id="aboutMe" class="about-me-container">
       <div class="about">
         <h2>About Me</h2>
         <p class="about-content">
@@ -260,7 +278,7 @@
       </div>
     </section>
   <!--About Me Section Ends-->
-  <section class = "form-section">
+  <section id="contact" class = "form-section">
     <div class = "form-content">
           <div class="form-content-paragraph">
             <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
@@ -295,5 +313,6 @@
      </ul>
   </footer>
   </div>
+  <script src="./script.js"></script>
 </body>
 </html>
