@@ -66,19 +66,18 @@ nav {
   display: none;
 }
 
-@media only screen and (max-width: 576px){
-
+@media only screen and (max-width: 576px) {
   .mobile-menu {
-   display: none;
+    display: none;
   }
 
   .open {
-      display: flex;
-      position: fixed;
-      background-color: #3c3a39;
-      min-width: 100vw;
-      min-height: 100vh;
-      z-index: 1000;
+    display: flex;
+    position: fixed;
+    background-color: #3c3a39;
+    min-width: 100vw;
+    min-height: 90vh;
+    z-index: 1000;
   }
 
   .mobile-menu-close-toggle-container {
@@ -86,46 +85,47 @@ nav {
     top: 0.75rem;
     right: 1.5rem;
   }
-  
 
   .mobile-menu-links {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 25px;
+    min-width: 375px;
+  }
+
+  .mobile-menu-links-items-container {
+    width: 325px;
+    border-bottom: 1px solid #fff5e1;
+    margin-left: 24px;
   }
 
   .mobile-menu-links-items {
     text-decoration: none;
-    font-family: Inter;
+    font-family: Inter Arial, Helvetica, sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     text-align: left;
-    color: #FFF5E1;
-    margin-left: 50px;
-    border-bottom: 1px solid #fff5e1;
+    color: #fff5e1;
     cursor: pointer;
-
-
   }
+
   .menu-icon {
     display: flex;
     position: absolute;
     top: 2.2rem;
     right: 1rem;
-
   }
 
   .desktop-menu {
-   display: none;
+    display: none;
   }
 
   .desktop-menu-item-link img {
     display: none;
   }
-
 }
 
 button {
@@ -147,7 +147,6 @@ button {
   color: #fff;
   text-decoration: none;
 }
-
 
 .headline-container {
   min-width: 375px;
@@ -654,6 +653,7 @@ button:active {
   background: f4f1f0;
   color: #5b5957;
 }
+
 /*
 .desktop-menu {
   display: none;
@@ -703,7 +703,6 @@ button:active {
 }
 
 @media only screen and (min-width: 768px) {
-  
   .logo {
     display: flex;
     align-items: center;
