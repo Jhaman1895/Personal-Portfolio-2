@@ -378,7 +378,6 @@ button {
   left: calc(50% - 124px / 2);
   top: calc(50% - 48px / 2);
   background: #ff6b00;
-  margin-top: -33px;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -1005,7 +1004,7 @@ button:active {
    display: none;
   }
 
-  .works-card-2:hover button {
+  .works-card-2:hover .card-2-button {
     display: flex;
     margin-top: 250px;
   }
