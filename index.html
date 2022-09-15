@@ -77,8 +77,160 @@
         <h2>My Recent Works</h2><span class="desktop-image"><img class="desktop-image" src="./images/Vector-works.svg" alt=""></span>
         <hr>
       </div>
-      <template></template>
-      <div class="works-cards">
+      <template>
+        <div class="works-cards-desktop">
+        <div class="works-card-1">
+          <img src="./images/Img_Placeholder-card_1.png" alt="headline-project-preview">
+          <h3>Multi-Post Stories</h3>
+          <p class="card-content-1">A daily selection of privately personalized
+            reads; no accounts or sign-ups
+            has been the industry's standard dummy
+            text ever since the 1500s, when an
+            unknown printer took a standard dummy text.
+          </p>
+          <ul class="tech-stack">
+            <li>css</li>
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+          <button type="button" class="button">See Project</button>
+        </div>
+        <div class="works-card-1-desktop">
+          <div class="works-card-1-image">
+            <img src="./images/img_placeholder-desktop.png" alt="headline-project-preview">
+          </div>
+          <div class="works-card-1-text">
+            <div class="works-card-1-header-container">
+              <h3>Multi-Post Stories</h3>
+            </div>
+            <div class="works-card-1-content-container">
+              <p class="card-content-1">A daily selection of privately personalized
+                reads: no accounts or sign-ups
+                has been the industry's standard dummy
+                text ever since the 1500s, when an
+                unknown printer took a standard dummy text.
+              </p>
+            </div>
+            <ul class="tech-stack">
+              <li>css</li>
+              <li>html</li>
+              <li>bootstrap</li>
+              <li>Ruby</li>
+            </ul>
+            <button type="button">See Project</button>
+          </div>
+        </div>
+        <div class="works-card-2">
+          <h4>Profesional Art
+            Printing Data
+          </h4>
+          <p class="card-content-2">
+            A daily selection of privately
+            personalized reads; no accounts or
+            sign-ups required. has been the
+            industry's standard
+          </p>
+          <ul class="tech-stack-2">
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+          <button class="card-2-button" type="button">See Project</button>
+        </div>
+        
+        <div class="works-card-2">
+          <h4>Profesional Art
+            Printing Data
+          </h4>
+          <p class="card-content-2">
+            A daily selection of privately
+            personalized reads; no accounts or
+            sign-ups required. has been the
+            industry's standard
+          </p>
+          <ul class="tech-stack-2">
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+          <button class="card-2-button" type="button">See Project</button>
+        </div>
+        
+        <div class="works-card-2">
+          <h4>Profesional Art
+            Printing Data
+          </h4>
+          <p class="card-content-2">
+            A daily selection of privately
+            personalized reads; no accounts or
+            sign-ups required. has been the
+            industry's standard
+          </p>
+          <ul class="tech-stack-2">
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+          <button class="card-2-button" type="button">See Project</button>
+        </div>
+        
+        <div class="works-card-2">
+          <h4>Profesional Art
+            Printing Data
+          </h4>
+          <p class="card-content-2">
+            A daily selection of privately
+            personalized reads; no accounts or
+            sign-ups required. has been the
+            industry's standard
+          </p>
+          <ul class="tech-stack-2">
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+          <button class="card-2-button" type="button">See Project</button>
+        </div>
+        
+        <div class="works-card-2">
+          <h4>Profesional Art
+            Printing Data
+          </h4>
+          <p class="card-content-2">
+            A daily selection of privately
+            personalized reads; no accounts or
+            sign-ups required. has been the
+            industry's standard
+          </p>
+          <ul class="tech-stack-2">
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+          <button class="card-2-button" type="button">See Project</button>
+        </div>
+        
+        <div class="works-card-2">
+          <h4>Profesional Art
+            Printing Data
+          </h4>
+          <p class="card-content-2">
+            A daily selection of privately
+            personalized reads; no accounts o
+            sign-ups required. has been the
+            industry's standard
+          </p>
+          <ul class="tech-stack-2">
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+          <button class="card-2-button" type="button">See Project</button>
+        </div>
+       
+      </div>
+      <div class="works-cards-mobile">
         <div class="works-card-1">
           <img src="./images/Img_Placeholder-card_1.png" alt="headline-project-preview">
           <h3>Multi-Post Stories</h3>
@@ -228,6 +380,8 @@
         </div>
        
       </div>
+    </template>
+      
     </section>
   <!--Recent Works Mobile Section Ends-->
   <!--About Me Section Begins-->
@@ -305,8 +459,12 @@
               <input type = "email" name = "email" id="email" placeholder = "Email" required class="email">
               <label for="message" hidden>Enter Your Message Here</label>
               <textarea name = "message" id="message" placeholder = "Write your Message here" required maxlength="500" class="form-textarea"></textarea>
-              <label for="submit" hidden>Submit</label>
-              <input class = "button" type = "submit" id="submit" value = "Get In Touch" name = "submit">
+              <div class="contact-form-button">
+                <label for="submit" hidden>Submit</label>
+                <input class = "button" type = "submit" id="submit" value = "Get In Touch" name = "submit">
+                <small class="hide">ERROR: email should be in lower-case!</small>
+              </div>
+              
             </form>
     </div>
   </section>

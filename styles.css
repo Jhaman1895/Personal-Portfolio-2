@@ -249,7 +249,17 @@ button {
   width: 100%;
   height: 3028px;
 }
+.works-cards-mobile {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  gap: 24px;
+  width: 100%;
+  height: 3028px;
+}
 
+.works-cards-desktop {
+  display: none;
+}
 .works-card-1 {
   width: 100%;
   height: 568px;
@@ -604,6 +614,18 @@ form textarea {
   color: #fff;
 }
 
+.contact-form-button small.hide {
+  display: none;
+}
+
+.contact-form-button small {
+  display: inline;
+  color: red;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+
 .footer-divider {
   background: #dfe1e6;
   height: 1px;
@@ -869,6 +891,11 @@ button:active {
     align-self: flex-start;
   }
 
+  .contact-form-button small {
+    padding-top: 10px;
+    display: block;
+  }
+  
   footer ul {
     gap: 20px;
   }
@@ -880,10 +907,19 @@ button:active {
   }
 
   .works-cards {
-    height: auto;
+    height: 1500px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }
+
+  .works-cards-desktop {
+    display: grid;
+    height: 1500px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+  }
+
 
   .works-title hr {
     display: none;
@@ -1008,5 +1044,7 @@ button:active {
     display: flex;
     margin-top: 250px;
   }
-
+  .works-cards-mobile {
+    display: none;
+  }
 }
