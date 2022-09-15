@@ -999,4 +999,15 @@ button:active {
     min-width: 684px;
     height: 114px;
   }
+
+  .works-card-2:hover h4,
+  .works-card-2:hover .card-content-2 {
+   display: none;
+  }
+
+  .works-card-2:hover button {
+    display: flex;
+    margin-top: 250px;
+  }
+
 }
