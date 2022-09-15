@@ -155,7 +155,32 @@ projectDetails.forEach((element, i) => {
     `;
   }
 });
+// Form Validation Section
+function isUpper(value) {
+  const condition = /[A-Z]/;
+  if (!condition.test(value)) {
+    return false;
+  }
+  return true;
+}
 
+const contactForm = document.querySelector('form');
+const userEmail = contactForm.querySelector('#email');
+const errorMessage = document.querySelector('.contact-form-button');
+
+function validateEmail(event) {
+  const userEmailInput = userEmail.value;
+  const checkUpper = isUpper(userEmailInput);
+  if (!checkUpper) {
+    errorMessage.classList.add('hide');
+    return;
+  }
+  event.preventDefault();
+  errorMessage.classList.remove('hide');
+}
+
+userEmail.addEventListener('change', validateEmail);
+contactForm.addEventListener('submit', validateEmail);
 // Toggle Mobile Menu
 
 function toggleClasses() {
